@@ -1,0 +1,18 @@
+# Certificates, keys and databases
+crls.d
+private*
+*.key
+*.kbx
+*.gpg
+# Sockets
+S.*
+
+# Statuses from readers
+*.status
+
+# Allowed ssh keys
+sshcontrol
+
+# Temporary files
+*.*~
+#*#
